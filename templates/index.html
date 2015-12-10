@@ -1,7 +1,7 @@
 <head>
   <link rel="stylesheet" type="text/css" href="../static/main.css">
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-  <script src="jquery.js"></script>
+  <script src="/../static/jquery.js"></script>
 
 </head>
 
@@ -14,13 +14,15 @@
 
     <div id="left">
       <h2> slides </h2>
-      <img src=""/>
+      <img id="slideimg" src="" height="30%" width="30%"/> <br> <br>
       <button id="addtopicked">add to picked</button>
-      <script>
-      $(document).ready(function(){
-        $.load("static/images/1.jpg");
-      });
-      </script>
+      <script src = "../static/imgine.js"></script>
+      <!--
+      <script> 
+	$.get("/image", function(data){
+	$("#slideimg").attr("src",data);
+	});
+      </script> -->
     </div>
 
     <div id="right">
