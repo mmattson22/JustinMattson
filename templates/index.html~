@@ -14,13 +14,21 @@
 
     <div id="left">
       <h2> slides </h2>
-      <img id="slideimg" src=""/>
-      <button id="addtopicked">add to picked</button>
-      <script src="static/imgine.js"> </script>
+      <img id="slideimg" src="../static/images/1.jpg" height="70%" width="70%"/> <br> <br>
+      <button id="addtopicked">Make this photo your pick</button>
+      <script src = "../static/imgine.js"></script>
+      <!--
+      <script>
+	$.get("/image", function(data){
+	$("#slideimg").attr("src",data);
+	});
+      </script> -->
     </div>
 
     <div id="right">
       <h2>picked</h2>
+      <img id="pickedImg" src=".jpg" height="70%" width="70%"/> <br> <br>
+      <script src = "../static/imgine.js"></script>
     </div>
 
   </div>
